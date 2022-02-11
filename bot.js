@@ -1,5 +1,8 @@
 const Discord = require('discord.js');
-const auth = require('./auth.json');
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
 const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MESSAGES] });
 const { DiscordTogether } = require('discord-together');
 
@@ -15,4 +18,4 @@ client.on('messageCreate', async message => {
     };
 });
 
-client.login(auth.token);
+client.login(`${process.env.AUTH_TOKEN}`);
