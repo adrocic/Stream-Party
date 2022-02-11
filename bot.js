@@ -10,11 +10,13 @@ client.discordTogether = new DiscordTogether(client);
 
 client.on('interactionCreate', async interaction => {
     if(!interaction.isCommand()) return
+    const channelId = interaction.channelId;
+    const channel = client.channels.cache.get(channelId);
 
     if (interaction.commandName === 'party') {
-        if(interaction.member.voice.channel) {
-            client.discordTogether.createTogetherCode(interaction.member.voice.channel.id, 'youtube').then(async invite => {
-                return interaction.channel.send(`${invite.code}`);
+        if(channelId) {
+            client.discordTogether.createTogetherCode(channelId, 'youtube').then(async invite => {
+                return channel.send(`${invite.code}`);
             });
         };
     };
