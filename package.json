@@ -1,0 +1,11 @@
+{
+  "name": "stream-party",
+  "version": "1.0.0",
+  "description": "Stream-Party.io discord bot",
+  "main": "bot.js",
+  "author": "Anel Drocic",
+  "dependencies": {
+    "discord-together": "^1.3.3",
+    "discord.js": "^13.6.0"
+  }
+}
