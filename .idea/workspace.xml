@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7fc9d3e-5708-4bff-9bbe-7dc6b0dd4eb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/StreamParty/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamParty/defaultApps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamParty/stream-party.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.9" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,5 +87,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="944" y="387" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1644567517899" />
+    <state x="880" y="291" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1644600635319">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="880" y="291" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1644600635319" />
+    <state x="1101" y="0" key="new project wizard" timestamp="1644598817169">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1101" y="0" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1644598817169" />
   </component>
 </project>
